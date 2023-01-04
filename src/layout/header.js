@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import AdminDetails from '../components/AdminDetails';
 import RoundedImage from '../components/RoundedImage';
-import { Calender } from '../icons';
+import Calender from '../icons/Calender';
 import DropdownMenu from './DropdownMenu';
 import MenuItem from './MenuItem';
 
