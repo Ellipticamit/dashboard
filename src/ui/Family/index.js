@@ -5,7 +5,7 @@ const Family = ({ data, title }) => {
   return (
     <div className='bg-light-100 p-3 h-full rounded-md overflow-hidden md:px-2'>
       <div className='flex items-center justify-between md:mb-4'>
-        <h2 className='text-lg md:text-base'>{title}</h2>
+        <h2 className='text-base'>{title}</h2>
         <div className='flex items-center space-x-5 md:space-x-3'>
           <div className=''>
             <img

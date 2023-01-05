@@ -5,7 +5,7 @@ const FamilyCard = ({ item }) => {
   return (
     <div
       className={clsx(
-        'flex items-center justify-between rounded-md p-2 py-3 bg-light-200 font-semibold',
+        'flex items-center justify-between rounded-md py-2 p-2 md:py-3 bg-light-200 font-semibold',
         {
           '!bg-orange-50 text-white': item?.admin,
         }
@@ -21,7 +21,7 @@ const FamilyCard = ({ item }) => {
             <div className='uppercase bg-white py-1 px-2 text-black rounded-sm text-sm md:text-xs'>
               Admin
             </div>
-            <div className='bg-white p-[6px] md:p-[2px] rounded-sm'>
+            <div className='bg-white p-[4px] md:p-[2px] rounded-sm'>
               <img src='/users.svg' alt='' />
             </div>
           </div>

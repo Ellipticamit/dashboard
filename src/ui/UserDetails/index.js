@@ -38,7 +38,7 @@ const UserDetails = ({ mobile = true, data, desktopData = [] }) => {
           ))}
         </div>
       </div>
-      <div className='w-44 h-10 mt-6 md:hidden'>
+      <div className='w-40 h-9 mt-6 md:hidden'>
         <Button text='Edit Profile' />
       </div>
       <div className='hidden md:flex items-center space-x-3 md:mt-6 lg:flex-col lg:space-y-2 lg:space-x-0 lg:mt-8 '>

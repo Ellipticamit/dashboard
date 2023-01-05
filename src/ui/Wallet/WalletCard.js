@@ -5,7 +5,7 @@ const WalletCard = ({ item, bgwhite = false, btn = true }) => {
   return (
     <div
       className={clsx(
-        'flex items-center space-x-3 px-2 py-5 bg-light-100 rounded-md',
+        'flex items-center space-x-3 px-2 py-3 md:py-5 bg-light-100 rounded-md',
         { '!bg-white !space-x-5 !py-3 !px-3': bgwhite }
       )}>
       <div className='w-12 h-10 flex items-center'>
