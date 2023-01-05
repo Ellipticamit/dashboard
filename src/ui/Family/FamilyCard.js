@@ -18,7 +18,7 @@ const FamilyCard = ({ item }) => {
       <div>
         {item.admin ? (
           <div className='flex items-center space-x-3 md:space-x-2'>
-            <div className='uppercase bg-white py-1 px-2 text-black rounded-sm text-sm md:text-xs'>
+            <div className='uppercase bg-white py-1 px-4 text-black rounded-sm text-sm md:text-xs'>
               Admin
             </div>
             <div className='bg-white p-[4px] md:p-[2px] rounded-sm'>
