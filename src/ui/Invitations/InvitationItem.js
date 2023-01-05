@@ -14,7 +14,7 @@ const InvitationItem = () => {
             <img src='/correct.svg' alt='' />
           </div>
         </div>
-        <div className='bg-red-500 w-8 h-8 md:w-9 md:h-9 rounded-md flex items-center justify-center cursor-pointer'>
+        <div className='bg-red-500 w-8 h-8 rounded-md flex items-center justify-center cursor-pointer'>
           <div>
             <img src='/close2.svg' alt='' />
           </div>
