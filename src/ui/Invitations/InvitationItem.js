@@ -9,11 +9,15 @@ const InvitationItem = () => {
         become his family member.
       </div>
       <div className='flex items-center space-x-2 text-white font-semibold text-2xl'>
-        <div className='bg-success w-9 h-9 rounded-md flex items-center justify-center cursor-pointer'>
-          &#10003;
+        <div className='bg-success-dark w-9 h-9 rounded-md flex items-center justify-center cursor-pointer'>
+          <div className=''>
+            <img src='/correct.svg' alt='' />
+          </div>
         </div>
         <div className='bg-red-500 w-9 h-9 rounded-md flex items-center justify-center cursor-pointer'>
-          x
+          <div>
+            <img src='/close2.svg' alt='' />
+          </div>
         </div>
       </div>
     </div>

@@ -5,22 +5,24 @@ const MenuItem = ({ item }) => {
   const [open, setOpen] = useState(false);
 
   const handleMenuClick = (e) => {
+    e.preventDefault();
     e.stopPropagation();
-    setOpen(!open);
+    if (item?.submenu) setOpen(!open);
   };
 
   return (
     <li
       className={clsx('cursor-pointer flex flex-col hover:text-orange-50', {
         'text-orange-50': open,
-      })}>
+      })}
+      onClick={handleMenuClick}>
       <div className='flex items-center justify-between'>
         <div className='flex items-center space-x-3'>
           <div>{item.icon}</div>
           <div>{item.name}</div>
         </div>
         {item?.submenu && (
-          <div className='rotate-180' onClick={handleMenuClick}>
+          <div className='rotate-180'>
             <img src='up.svg' alt='' />
           </div>
         )}

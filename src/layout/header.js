@@ -62,7 +62,7 @@ const Header = () => {
   return (
     <>
       <header className='bg-primary-100 p-2 px-3'>
-        <div className='container mx-auto flex items-center justify-between h-12 md:h-16'>
+        <div className='container mx-auto flex items-center justify-between h-12 md:h-16 lg:h-10'>
           <div className='flex items-center space-x-3'>
             <div
               className='flex flex-col space-y-1 md:space-y-1 cursor-pointer lg:hidden'
@@ -75,14 +75,14 @@ const Header = () => {
               <h1 className='text-white font-bold text-xl nd:text-2xl'>LOGO</h1>
             </div>
             <div className='hidden lg:flex items-center'>
-              <nav className='ml-60 text-white'>
-                <ul className='flex items-center space-x-16'>
+              <nav className='ml-40 text-white'>
+                <ul className='flex items-center space-x-2 lg:text-sm'>
                   {menuData.map((item) =>
                     item?.submenu ? (
                       <DropdownMenu item={item} key={item.name} />
                     ) : (
                       <li
-                        className='w-40 hover:text-orange-50 cursor-pointer py-3'
+                        className='w-32 hover:text-orange-50 cursor-pointer py-3'
                         key={item.name}>
                         {item.name}
                       </li>

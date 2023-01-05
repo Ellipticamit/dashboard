@@ -16,7 +16,10 @@ module.exports = {
           300: '#cad7f6',
           400: '#dbdbdb',
         },
-        success: '#0b611a',
+        success: {
+          light: '#cef2da',
+          dark: '#0b611a',
+        },
       },
     },
   },

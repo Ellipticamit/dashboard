@@ -3,10 +3,10 @@ import useDropdown from '../hooks/useDropdown';
 const DropdownMenu = ({ item }) => {
   const [ref, value] = useDropdown();
   return (
-    <li ref={ref} className='relative w-40 py-3 cursor-pointer'>
+    <li ref={ref} className='relative w-32 py-3 cursor-pointer'>
       <div className='hover:text-orange-50'>{item.name}</div>
       {value && (
-        <ul className='absolute top-12 left-0 bg-white w-40 rounded-md text-black drop-shadow-lg overflow-hidden '>
+        <ul className='absolute top-10 left-0 bg-white w-40 rounded-md text-black drop-shadow-lg overflow-hidden '>
           {item?.submenu.map((mitem) => (
             <li
               key={mitem.name}

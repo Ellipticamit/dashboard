@@ -14,7 +14,7 @@ const Family = ({ data, title }) => {
               className='md:w-4 md:h-4 lg:w-5 lg:h-5'
             />
           </div>
-          <div className='w-24 h-9'>
+          <div className='w-24 h-8'>
             <Button text='Add New' color='success' />
           </div>
         </div>

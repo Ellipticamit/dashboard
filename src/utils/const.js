@@ -68,10 +68,12 @@ const name = [
   {
     label: 'First Name',
     name: 'first_name',
+    value: 'John',
   },
   {
     label: 'Last Name',
     name: 'last_name',
+    value: 'Smith',
   },
 ];
 
@@ -80,10 +82,12 @@ export const inputMobileData = [
   {
     label: 'Phone',
     name: 'phone',
+    value: '+1(324) 123 123',
   },
   {
     label: 'Graducation Year',
     name: 'grad_year',
+    value: '2000',
   },
 ];
 
@@ -92,6 +96,7 @@ export const inputData = [
   {
     label: 'DOB',
     name: 'dateofbirth',
+    value: '08/03/1990',
   },
 ];
 
@@ -100,6 +105,7 @@ export const addressData = [
   {
     name: 'address',
     label: 'Address Line 1',
+    value: '123 freedline streets',
   },
   {
     name: 'address2',
@@ -112,6 +118,7 @@ export const addressData = [
   {
     name: 'state',
     label: 'State/Provision/Region',
+    value: '',
   },
   {
     name: 'city',
@@ -147,3 +154,12 @@ export const activityMobileData = [
 ];
 
 export const activityData = [...activityMobileData, ...activityMobileData];
+
+export const inputDesktopData = [
+  name[0],
+  { name: 'phone', label: 'Phone', value: '+1(324) 123 123' },
+  name[1],
+  { name: 'grad', label: 'Graduation Year', value: '2000' },
+  { name: 'email', label: 'Email', value: 'johnsmith@yahoo.com' },
+  { name: 'dob', label: 'Date of Birth', value: '08/03/1990' },
+];

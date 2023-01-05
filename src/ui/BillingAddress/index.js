@@ -41,7 +41,7 @@ const BillingAddress = () => {
               className={clsx(`${getGrid(item.name)}`, {
                 'hidden lg:block': item.name === 'address2',
               })}>
-              <Input label={item.label} name={item.name} />
+              <Input label={item.label} name={item.name} value={item?.value} />
             </div>
           );
         })}

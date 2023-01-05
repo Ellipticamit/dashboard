@@ -10,7 +10,7 @@ const ActivitiesItem = ({ item, islast }) => {
             islast,
         }
       )}>
-      <div className='relative z-50 w-12 h-12 border-4 border-white rounded-full'>
+      <div className='relative z-50 w-12 h-12 border-4 border-white rounded-full md:border-light-100'>
         <div className='w-full h-full bg-light-200 rounded-full flex items-center justify-center'>
           <img src='/users.svg' alt='' />
         </div>
